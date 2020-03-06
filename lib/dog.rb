@@ -20,4 +20,4 @@ class Dog
   end
 end
 pluto = Dog.new("Pluto")
-pluto.save!
+
