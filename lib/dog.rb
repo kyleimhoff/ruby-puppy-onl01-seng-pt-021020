@@ -19,5 +19,5 @@ class Dog
     @@all.clear
   end
 end
-pluto.Dog.new("Pluto")
+pluto = Dog.new("Pluto")
 pluto.save!
