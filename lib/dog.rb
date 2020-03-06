@@ -19,5 +19,5 @@ def self.all
     @@all.clear 
   end
   def self.print_all
-    puts @@all.
+    puts @@all.join(" ")
 pluto = Dog.new("Pluto")
