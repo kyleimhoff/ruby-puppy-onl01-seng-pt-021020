@@ -11,16 +11,13 @@ class Dog
     
   end
   
-  
-  
-  def self.clear_all 
-    @@all.clear 
-  end
-  
-  
 end
 def self.all 
     @@all
   end
-  
+  def self.clear_all 
+    @@all.clear 
+  end
+  def self.print_all
+    puts @@all.
 pluto = Dog.new("Pluto")
