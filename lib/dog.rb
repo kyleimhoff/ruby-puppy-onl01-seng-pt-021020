@@ -18,6 +18,6 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-
-pluto = Dog.new("Pluto")
+end
+pluto.Dog.new("Pluto")
 pluto.save!
