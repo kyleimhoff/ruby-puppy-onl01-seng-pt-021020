@@ -1,6 +1,6 @@
 class Dog
 
-  attr_accessor :name
+  attr_accessor :name, :save
 
   @@all = []
 
@@ -18,7 +18,6 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-def save
-  
-end
+
 pluto = Dog.new("Pluto")
+pluto.save!
