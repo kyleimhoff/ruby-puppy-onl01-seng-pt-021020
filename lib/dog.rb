@@ -22,4 +22,5 @@ end
 def self.all 
     @@all
   end
+  
 pluto = Dog.new("Pluto")
