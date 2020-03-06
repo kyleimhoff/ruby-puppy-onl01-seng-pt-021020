@@ -24,5 +24,7 @@ class Dog
   end
 end
 pluto = Dog.new("pluto")
+pluto.save!
 fido = Dog.new("fido")
 maddy = Dog.new("maddy")
+maddy.save!
